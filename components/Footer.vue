@@ -9,11 +9,13 @@
 export default {
   methods: {
     isMobile() {
-      const ua = navigator.userAgent
-      if (ua.match(/Android/i) || ua.match(/webOS/i) || ua.match(/iPhone/i) || ua.match(/iPad/i) || ua.match(/iPod/i) || ua.match(/BlackBerry/i) || ua.match(/Windows Phone/i)) {
-        return true
+      if (process.static) {
+        // const ua = navigator.userAgent
+        // if (ua.match(/Android/i) || ua.match(/webOS/i) || ua.match(/iPhone/i) || ua.match(/iPad/i) || ua.match(/iPod/i) || ua.match(/BlackBerry/i) || ua.match(/Windows Phone/i)) {
+        //   return true
+        // }
+        // return false
       }
-      return false
     }
   }
 }
