@@ -33,9 +33,9 @@ export default {
 }
 
 header {
-  // max-width: 1400px;
+  max-width: 1400px;
   width: 100%;
-  min-width: 1200px;
+  // min-width: 1200px;
   position: absolute;
   padding: 0 20px;
   top: 30px;
