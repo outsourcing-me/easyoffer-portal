@@ -9,18 +9,16 @@ section.container
     img.banner-img(src="~assets/images/header.png")
   .body
     img.body-img(src="~assets/images/body.png")
-  footer
-    p EasyOffer 职来求你 服务的最终解释权归北京博然超越教育咨询有限公司所有
-    p 北京博然超越教育咨询有限公司    北京市海淀区东北旺西路8号院4号楼四层421-68号
-    p 版权所有 北京博然超越教育咨询有限公司 京ICP备10011865号-1  京公网安备11010502022735号
+  no-ssr
+    foot
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Foot from '~/components/Footer.vue'
 
 export default {
   components: {
-    Logo
+    Foot
   }
 }
 </script>
@@ -34,8 +32,7 @@ export default {
 
 header {
   max-width: 1400px;
-  width: 100%;
-  // min-width: 1200px;
+  width: 100%; // min-width: 1200px;
   position: absolute;
   padding: 0 20px;
   top: 30px;
@@ -86,6 +83,12 @@ footer {
   text-align: center;
   padding: 40px 0;
   font-size: 14px;
+  &.is-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
   p {
     line-height: 2.5em;
   }
