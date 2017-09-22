@@ -28,7 +28,7 @@ module.exports = {
     // // SCSS file in the project
     // '@/assets/css/main.scss'
   ],
-  router: { base: '/easyoffet-portal/' },
+  router: { base: '/easyoffer-portal/' },
   generate: {
     dir: 'docs'
   },
