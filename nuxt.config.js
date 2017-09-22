@@ -28,6 +28,9 @@ module.exports = {
     // // SCSS file in the project
     // '@/assets/css/main.scss'
   ],
+  generate: {
+    dir: 'docs'
+  },
   /*
    ** Build configuration
    */
@@ -45,6 +48,9 @@ module.exports = {
       })
     ],
     extend(config, ctx) {
+      config.devtool = false
+      // config.output.publicPath = ''
+      // console.log(ctx)
       if (ctx.dev && ctx.isClient) {
         config.devtool = 'eval-source-map'
         config.module.rules.push({
@@ -54,7 +60,6 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-      config.devtool = false
     }
   }
 }
