@@ -9,12 +9,12 @@ section.container
     img.banner-img(src="~assets/images/header.png")
   .body
     img.body-img(src="~assets/images/body.png")
-  no-ssr
-    foot
+  //- no-ssr
+  foot
 </template>
 
 <script>
-import Foot from '~/components/Footer.vue'
+import Foot from '@/components/Footer.vue'
 
 export default {
   components: {

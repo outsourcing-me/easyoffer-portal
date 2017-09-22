@@ -47,6 +47,7 @@ module.exports = {
         ]
       })
     ],
+
     extend(config, ctx) {
       config.devtool = false
       // config.output.publicPath = ''
