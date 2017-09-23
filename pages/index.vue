@@ -8,7 +8,7 @@ section.container
     .right
     img.banner-img(src="~assets/images/header.png")
   .body
-    img.body-img(src="~assets/images/body.png")
+    img.body-img(src="~assets/images/body.jpg")
   //- no-ssr
   foot
 </template>
@@ -92,6 +92,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 999;
   }
   p {
     line-height: 2.5em;
