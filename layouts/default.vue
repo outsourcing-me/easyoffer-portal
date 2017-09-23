@@ -23,7 +23,7 @@ html {
 }
 
 #__nuxt {
-  min-width: 1200px;
+  /*min-width: 1200px;*/
 }
 
 .button--green {

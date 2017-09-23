@@ -35,7 +35,7 @@ export default {
 }
 
 header {
-  max-width: 1400px;
+  max-width: 1500px;
   width: 100%; // min-width: 1200px;
   position: absolute;
   padding: 0 20px;
@@ -53,7 +53,7 @@ header {
 .banner {
   height: 515px;
   .banner-img {
-    max-width: 1100px; // min-width: 1200px;
+    max-width: 90%; // min-width: 1200px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -79,6 +79,7 @@ header {
   .body-img {
     margin: 66px auto 0;
     display: block;
+    max-width: 90%;
   }
 }
 
