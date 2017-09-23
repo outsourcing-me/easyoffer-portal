@@ -17,6 +17,10 @@ section.container
 import Foot from '@/components/Footer.vue'
 
 export default {
+  // asyncData(ctx) {
+  //   console.log(ctx)
+  //   return { haha: 123 }
+  // },
   components: {
     Foot
   }

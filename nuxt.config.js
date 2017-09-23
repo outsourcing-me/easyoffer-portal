@@ -32,6 +32,8 @@ module.exports = {
   generate: {
     dir: 'docs'
   },
+
+  // plugins: [{ src: '~/plugins/utils.js', ssr: false }],
   /*
    ** Build configuration
    */
